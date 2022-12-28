@@ -1,4 +1,3 @@
-const saludo = require("./saludos.js");
+const { saludarHolaMundo } = require("./saludos.js");
 
-console.log(saludo.saludarHolaMundo());
-console.log(saludo.saludar("freeCodeCamp"));
+console.log(saludarHolaMundo());
